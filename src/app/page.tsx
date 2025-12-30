@@ -122,13 +122,19 @@ function PricingSection() {
                 <span className="uppercase font-extrabold text-yellow-500 underline decoration-2">ganar como un trader experto</span>.
               </p>
               <div className="flex flex-col items-center text-center mt-6">
-                <a
-                  href="#"
+                <button
+                  onClick={() => {
+                    window.open(
+                      "https://pay.hotmart.com/U102594201B?bid=1767117204157",
+                      "_blank",
+                      "noopener,noreferrer"
+                    );
+                  }}
                   className="flex flex-col items-center text-white text-2xl font-semibold py-3 px-12 bg-cyan-500 hover:bg-cyan-700 border-b-4 border-cyan-600 shadow-[0_0_60px_0_rgba(0,0,0,0.3)] shadow-cyan-500/50 hover:shadow-none transition-all rounded-lg"
                 >
                   <span>Comprar Ahora</span>
                   <span className="opacity-70 text-xl">100% segura por Hotmart</span>
-                </a>
+                </button>
                 <div className="font-medium mt-4 mb-4 text-center">
                   <p className="text-lg">Accede por $8/mes</p>
                   <p className="text-sm text-gray-600">Cupos limitados</p>
