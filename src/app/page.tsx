@@ -147,7 +147,7 @@ function PricingSection() {
 
         <div className="text-left w-full">
           <p className="text-2xl md:text-3xl font-semibold mb-1">
-            Acceso VIP - <Image src="https://ext.same-assets.com/400954458/3691292431.png" alt="Logo" width={200} height={40} className="inline h-6 w-auto" />
+            Acceso VIP
           </p>
           <div className="flex items-center gap-2 mb-6">
             <div>
