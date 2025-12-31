@@ -15,7 +15,6 @@ export default function Home() {
         <GuaranteeSection />
         <TestimonialsSection />
         <FAQSection />
-        <ContactSection />
       </main>
       <Footer />
     </div>
@@ -335,13 +334,19 @@ function FAQSection() {
           </div>
         ))}
         <div className="flex flex-col items-center text-center mt-6">
-          <a
-            href="#"
-            className="flex flex-col items-center text-white text-2xl font-semibold py-3 px-12 bg-cyan-500 hover:bg-cyan-700 border-b-4 border-cyan-600 shadow-[0_0_60px_0_rgba(0,0,0,0.3)] shadow-cyan-500/50 hover:shadow-none transition-all rounded-lg"
-          >
+          <button
+                  onClick={() => {
+                    window.open(
+                      "https://pay.hotmart.com/U102594201B?bid=1767117204157",
+                      "_blank",
+                      "noopener,noreferrer"
+                    );
+                  }}
+                  className="flex flex-col items-center text-white text-2xl font-semibold py-3 px-12 bg-cyan-500 hover:bg-cyan-700 border-b-4 border-cyan-600 shadow-[0_0_60px_0_rgba(0,0,0,0.3)] shadow-cyan-500/50 hover:shadow-none transition-all rounded-lg"
+                >
             <span>Comprar Ahora</span>
             <span className="opacity-70 text-xl">100% segura por Hotmart</span>
-          </a>
+          </button>
           <p className="w-64 font-medium mt-4 mb-4 leading-5">
             Pagas hoy $8 USD solo una vez y tienes <u>acceso de por vida</u>
           </p>
@@ -351,54 +356,12 @@ function FAQSection() {
   );
 }
 
-function ContactSection() {
-  return (
-    <section className="bg-black w-full text-white py-10 md:py-20 px-4">
-      <div className="flex flex-col items-center text-center max-w-screen-lg mx-auto">
-        <h2 className="text-3xl md:text-4xl font-extrabold mb-4">
-          ¿Necesitas Ayuda? ¿Tienes alguna pregunta?
-        </h2>
-        <p className="text-xl md:text-2xl text-neutral-500 mb-5">
-          No dudes en preguntarnos en Servicio al Cliente
-        </p>
-      </div>
-      <div className="flex flex-col items-center text-center p-4">
-        <a
-          target="_blank"
-          href="https://t.me/dailysignalspro"
-          className="mb-10 flex flex-col items-center text-white text-2xl font-semibold py-3 px-12 bg-cyan-500 hover:bg-cyan-700 border-b-4 border-cyan-600 shadow-[0_0_60px_0_rgba(0,0,0,0.3)] shadow-cyan-500/50 hover:shadow-none transition-all rounded-lg"
-          rel="noopener noreferrer"
-        >
-          <span>Contáctanos directo por telegram</span>
-        </a>
-        <p className="text-xl md:text-2xl text-neutral-500 mb-5">
-          o síguenos en nuestro canal informativo de Telegram
-        </p>
-        <a
-          target="_blank"
-          href="https://t.me/+kgMtka3htygzM2Qx"
-          className="flex flex-col items-center text-white text-2xl font-semibold py-3 px-12 bg-cyan-500 hover:bg-cyan-700 border-b-4 border-cyan-600 shadow-[0_0_60px_0_rgba(0,0,0,0.3)] shadow-cyan-500/50 hover:shadow-none transition-all rounded-lg"
-          rel="noopener noreferrer"
-        >
-          <span>Únete al canal informativo</span>
-        </a>
-      </div>
-    </section>
-  );
-}
-
 function Footer() {
   return (
     <footer className="w-full text-black py-10 md:py-20 px-4 bg-white">
       <div className="flex items-start flex-col max-w-screen-xl mx-auto gap-4">
-        <Image
-          src="https://ext.same-assets.com/400954458/3691292431.png"
-          alt="Daily Signals Pro"
-          width={200}
-          height={40}
-          className="h-6 w-auto"
-        />
-        <p className="font-medium">Copyright 2025 - Todos los derechos reservados</p>
+        
+        <p className="font-medium">Copyright 2026 - Todos los derechos reservados</p>
         <p className="text-xs text-gray-500">
           *Este sitio no es parte del sitio web de Google™ ni de una red de sitios como Youtube™ o de ninguna empresa
           propiedad de Google™ o Youtube™. Además, este sitio web no está respaldado por Google™ Youtube™ o Facebook
