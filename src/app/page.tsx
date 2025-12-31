@@ -301,15 +301,7 @@ function FAQSection() {
       answer:
         "Muy simple Hotmart te da 7 días para probar el servicio, si no te gusta te devuelven el dinero sin preguntas desde la misma plataforma.",
     },
-    {
-      question: "¿Es una suscripción recurrente?",
-      answer: (
-        <p>
-          NO, Te cobramos <em><strong>solamente 1 única vez,</strong></em> y tienes acceso <strong>DE POR VIDA</strong>, no te hacemos cobros recurrentes como
-          otros servicios si lo hacen sin avisar
-        </p>
-      ),
-    },
+    
   ];
 
   return (
