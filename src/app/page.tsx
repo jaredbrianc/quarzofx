@@ -340,7 +340,7 @@ function FAQSection() {
             <span className="opacity-70 text-xl">100% segura por Hotmart</span>
           </button>
           <p className="w-64 font-medium mt-4 mb-4 leading-5">
-            Pagas hoy $8 USD solo una vez y tienes <u>acceso de por vida</u>
+            Empieza hoy por <u>$8 USD al mes.</u> Tu pago es <u>100% seguro</u> y puedes <u>cancelar cuando quieras</u>
           </p>
         </div>
       </div>
